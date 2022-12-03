@@ -27,7 +27,7 @@ public class Pizza {
             this.price=400;
             this.extraToppingPrice=120;
         }
-        this.bill="Base Price Pizzza : "+this.price+"\n";
+        this.bill="Base Price Of The Pizza: "+this.price+"\n";
     }
 
     private int ExtraCheesePrice;
@@ -87,13 +87,13 @@ public class Pizza {
         }
 
         if (isToppingAdded) {
-            this.bill = this.bill + "Extra Topping Added :" + this.extraToppingPrice + "\n";
+            this.bill = this.bill + "Extra Toppings Added: " + this.extraToppingPrice + "\n";
         }
 
         if (isTakeAwayAdded) {
-            this.bill = this.bill + "PaperBag added: " + this.takeAwayPrice + "\n";
+            this.bill = this.bill + "Paperbag Added: " + this.takeAwayPrice + "\n";
         }
-        return this.bill = this.bill + "Total Price :" + this.price + "\n";
+        return this.bill = this.bill + "Total Price: " + this.price + "\n";
      }
         return this.bill;
     }
